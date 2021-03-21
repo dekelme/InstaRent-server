@@ -1,0 +1,43 @@
+{
+  "name": "web-services-final-project-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sivansalzmann/Web-services-final-project-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sivansalzmann/Web-services-final-project-server/issues"
+  },
+  "homepage": "https://github.com/sivansalzmann/Web-services-final-project-server#readme",
+  "dependencies": {
+    "await": "^0.2.6",
+    "axios": "^0.21.1",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "google-auth-library": "^6.1.6",
+    "json": "^10.0.0",
+    "logger": "0.0.1",
+    "moment": "^2.29.1",
+    "mongoose": "^5.11.8",
+    "mongoose-auto-increment": "^5.0.1",
+    "morgan": "^1.10.0",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
